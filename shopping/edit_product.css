@@ -1,0 +1,95 @@
+/* Reset some default styles */
+body, h1, form, input, textarea, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set global styles */
+body {
+    background-image: url('shop img.jpg');
+    font-family: Arial, sans-serif;
+    /* background-color: #f4f4f4; */
+    color: #333;
+    padding: 20px;
+}
+
+/* Style the heading */
+h1 {
+    text-align: center;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+/* Style the form */
+form {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"], 
+input[type="number"], 
+textarea, 
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Style for current image display */
+p {
+    margin-top: 10px;
+}
+
+img {
+    border-radius: 4px;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Style the back button */
+a {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+a button {
+    background-color: #6c757d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+a button:hover {
+    background-color: #5a6268;
+}
